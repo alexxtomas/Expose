@@ -3,9 +3,8 @@ import { $ } from '../utils/$'
 
 const app = $('#app')
 const header = document.createElement('header')
-// const header = document.createElement('header')
-const Header = async (page = 'Home', title = 'Expose') => {
-  header.innerHTML = await Nav(page, title)
+const Header = async (title = 'Expose') => {
+  header.innerHTML = await Nav(title)
   app.appendChild(header)
 }
 

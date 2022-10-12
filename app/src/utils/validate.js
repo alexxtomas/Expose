@@ -1,4 +1,5 @@
 import exposeSevices from '../services/exposeSevices'
+import { $ } from './$'
 import { showError } from './showError'
 const email = async (emailToCheck) => {
   const existentEmails = await exposeSevices.getAllUsers('emails')
@@ -27,16 +28,16 @@ const password = (password) => {
 }
 
 const signUp = async (emailInput, nameInput, lastNameInput, passwordInput) => {
-  const error = document.querySelector('.error-text')
+  const error = $('.error-text')
   if (error !== null) error.remove()
   if (!await email(emailInput.value)) {
     showError(emailInput, 'Please enter a valid email. This email is invalid or alredy exists')
   } else if (!name(nameInput.value)) {
-    const error = document.querySelector('.error-text')
+    const error = $('.error-text')
     if (error !== null) error.remove()
     showError(nameInput, 'Please enter a valid name.')
   } else if (!name(lastNameInput.value)) {
-    const error = document.querySelector('.error-text')
+    const error = $('.error-text')
     if (error !== null) error.remove()
     showError(lastNameInput, 'Please enter a valid last name.')
   } else if (!password(passwordInput.value)) {

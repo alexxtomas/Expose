@@ -5,11 +5,11 @@ const Login = () => {
         <form>
             <label>
                 Email
-                <input type="email" required  >
+                <input id="email" type="email" required  >
             </label>
             <label>
                 Password
-                <input type="password" required min="6" max="30">
+                <input id="password" type="password" required min="6" max="30">
             </label>
             <button>Login</button>
             </form>

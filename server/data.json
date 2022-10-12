@@ -1,24 +1,19 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "Qmy5PcaPPxJDzdb1S4Xgv",
       "name": "Alex",
       "lastName": "Tomas",
-      "adresss": "c/Rio Vero nº10",
+      "address": "calle rio vero ",
       "email": "atomasllimos@gmail.com",
-      "password": "123456",
+      "password": "1234alexT.%",
       "avatar": "",
       "posts": [
         {
-          "title": "Why should I be vegetarian?",
-          "content": "Eat vegetables please",
-          "images": [],
-          "comments": [
-            {
-              "username": "Pepe",
-              "content": "I don't think so"
-            }
-          ]
+          "id": "4mqHpL6VMMaO9kCoxcufq",
+          "title": "Feo",
+          "content": "Guapo",
+          "comments": []
         }
       ]
     }

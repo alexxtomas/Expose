@@ -10,6 +10,6 @@ export const checkUserLogin = async () => {
 
   const allUsersCredentials = await exposeService.getAllUsers('credentials')
 
-  isLogged = allUsersCredentials.find(({ email, password }) => password === credentials.password && email === credentials.email) !== undefined
+  isLogged = allUsersCredentials.find(({ email, password }) => (password === credentials.password) && (email === credentials.email)) !== undefined
   return isLogged
 }

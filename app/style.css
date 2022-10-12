@@ -8,11 +8,32 @@
   font-weight: 500;
 }
 
-/* .error {
-  background-color: #B00020;
-} */
-
 .error-text {
   color: #B00020;
+}
 
+
+.post {
+  border: 1px solid #666;
+
+  padding: 8px;
+  margin: 5px 0px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.post h1 {
+  text-align: center;
+}
+
+#content {
+  resize: none;
+  width: 1128px;
+  height: 604px;
+}
+
+.succesfully {
+  color: green;
+  font-size: 30px;
+  font-weight: 500
 }
