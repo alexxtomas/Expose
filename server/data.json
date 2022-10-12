@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex",
+      "lastName": "Tomas",
+      "adresss": "c/Rio Vero nº10",
+      "email": "atomasllimos@gmail.com",
+      "password": "123456",
+      "avatar": "",
+      "posts": [
+        {
+          "title": "Why should I be vegetarian?",
+          "content": "Eat vegetables please",
+          "images": [],
+          "comments": [
+            {
+              "username": "Pepe",
+              "content": "I don't think so"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
