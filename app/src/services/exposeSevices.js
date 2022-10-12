@@ -16,6 +16,14 @@ const getAllUsers = async (param = '') => {
       password
 
     }))
+  } else if (param === 'completeNames') {
+    data = data.map(({ name, lastName }) => ({
+      fullName: `${name} ${lastName}`
+    }))
+  } else if (param === 'emails') {
+    data = data.map(({ email }) => ({
+      email
+    }))
   }
   return data
 }

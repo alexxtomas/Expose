@@ -2,7 +2,6 @@ import { checkUserLogin } from '../utils/checkUserLogin'
 
 const Nav = async (page = 'Home', title = 'Expose') => {
   const isLogged = await checkUserLogin()
-  console.log(isLogged)
   if ((page === 'Home' && !isLogged) || page === 'SignUp') {
     return `
     <nav>

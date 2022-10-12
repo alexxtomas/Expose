@@ -6,5 +6,4 @@ import './style.css'
 
 await Header()
 Main()
-
-eventHandlers()
+await eventHandlers()

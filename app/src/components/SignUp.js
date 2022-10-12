@@ -4,25 +4,25 @@ const SignUp = () => {
             <form>
                 <label>
                     Name
-                    <input type="text" required>
+                    <input id="name" type="text" minlength="3" maxlength="12" required m>
                 </label>
                 <label>
                     Last name
-                    <input type="text" required>
+                    <input id="last-name" type="text" minlength="3" maxlength="12" required>
                 </label>
                 <label>
                     Address
-                    <input type="text" required>
+                    <input id="address" type="text" required>
                 </label>
                 <label>
                     Email
-                    <input type="email" required>
+                    <input id="email" type="text" required>
                 </label>
                 <label>
                     Password
-                    <input type="password" required>
+                    <input id="password" type="password" required>
                 </label>
-                <button>Sign Up</button>
+                <button type="submit" >Sign Up</button>
             </form>
     `
 }
