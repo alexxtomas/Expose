@@ -16,6 +16,36 @@
           "comments": []
         }
       ]
+    },
+    {
+      "id": "jDaERDbVYNnAz1ywdGDFc",
+      "name": "fsdafsda",
+      "lastName": "fsadfsafsad",
+      "address": "fafsfsafas",
+      "email": "susyhurtado74@gmail.com",
+      "password": "3232Alex%",
+      "avatar": "",
+      "posts": []
+    },
+    {
+      "id": "GXayY8LzLOeq9rMn9vZhk",
+      "name": "fsdafsda",
+      "lastName": "fsadfsafsad",
+      "address": "fafsfsafas",
+      "email": "pepe@gmail.com",
+      "password": "3232Alex%",
+      "avatar": "",
+      "posts": []
+    },
+    {
+      "id": "xCcBHZD5FjcXr8EuVM6aT",
+      "name": "fsdafdas",
+      "lastName": "fdsadfsa",
+      "address": "fasdfdasfsda",
+      "email": "danielaosunavarela03@gmail.com",
+      "password": "12Alex%&",
+      "avatar": "",
+      "posts": []
     }
   ]
 }

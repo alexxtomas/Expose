@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const APIUrl = 'https://expose-backend.onrender.com/users'
+const APIUrl = 'http://localhost:8080/users'
 
 const createUser = async (user) => {
   const response = await axios.post(APIUrl, user)

@@ -64,7 +64,7 @@ export const eventHandlers = async () => {
 
       const response = await exposeSevices.createUser(newUser)
       if (response.status === 201) {
-        window.Storage.setItem('user', JSON.stringify({ email: response.data.email, password: response.data.password }))
+        window.localStorage.setItem('user', JSON.stringify({ email: response.data.email, password: response.data.password }))
 
         window.location.reload()
       } else throw new Error('Error in create user')
